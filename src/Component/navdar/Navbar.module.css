@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 25px;
+  align-items: center;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  min-height: 30px;
+  width: 100%;
+  background-color: whitesmoke;
+}
+.navItems {
+  padding: 30px;
+}
+.navItems:hover {
+  border-bottom: 1px solid rebeccapurple;
+  color: rebeccapurple;
+}
+.navbar a {
+  color: black;
+}
+@media (max-width: 500px) {
+  .navItems {
+    display: none;
+  }
+}

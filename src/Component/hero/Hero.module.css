@@ -1,0 +1,44 @@
+.showcase{
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 1.3rem;
+    min-height: 100vh;
+}
+
+.left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.tittle{
+    font-size: 40px;
+    font-weight: 700;
+}
+.description{
+    font-size: 22px;
+    font-weight: 400;
+}
+.right{
+    flex: 1;
+}
+.btn button{
+  padding: 10px 20px;
+  margin: .4rem;
+  background-color: rebeccapurple;
+  color: #ffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn button:hover{
+  background-color: #ffff;
+  color: rebeccapurple;
+  border: 1px solid rebeccapurple;
+}
+@media (max-width: 705px) {
+    .showcase{
+        flex-direction: column;
+    }
+}
