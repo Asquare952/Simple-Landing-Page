@@ -77,7 +77,7 @@ const footer = () => {
         </div>
         <hr />
         <section className={styles.copyRight}>
-          <p>&copy Marusoft Technologies Limited</p>
+          <p>&copy; Marusoft Technologies Limited</p>
         </section>
       </div>
     </footer>
